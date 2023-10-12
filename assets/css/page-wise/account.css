@@ -1,0 +1,37 @@
+main{
+    position: relative;
+    margin-top: auto;
+   
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: fit-content;
+    align-self: center;
+}
+.account-container{
+    width: 430px;
+    margin: auto;
+    padding: 40px;
+}
+.account-container label,.account-container  label input{
+    display: block;
+}
+.account-container label{
+    margin-block: 05px;
+    width: fit-content;
+}
+.account-container button{
+    margin: auto;
+    width: 150px;
+    display: block;
+    margin-block: 15px;
+}
+.account-link{
+    text-align: center;
+    position: absolute;
+    left: 0;right: 0;
+}
+.account-link a{
+    text-decoration: underline;
+}
+.mgauto{
+    margin: auto;
+}

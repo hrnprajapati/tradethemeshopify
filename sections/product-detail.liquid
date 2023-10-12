@@ -1,0 +1,552 @@
+<link rel="stylesheet" href="{{ '/css/page-wise/product-detail.css' | | asset_url}}">
+<div class="product-image-container">
+  <div class="product-images">
+    <div onmouseover="setimage(this);">
+      <img src="../images/gaming controls/08-Gaming.jpg">
+    </div>
+    <div onmouseover="setimage(this);">
+      <img src="../images/gaming controls/08-Gaming-Color-08.jpg">
+    </div>
+  </div>
+  <div
+    onpointerenter="toogle(this);"
+    onpointerleave="toogle(this);"
+    class="product-image--lens">
+    <div class="lens d-non"></div>
+    <img src="  src="{{ product.featured_media | image_url }}"">
+    <div class="product-image--zoom d-non"></div>
+  </div>
+  <div class="product-description">
+    <h2>Tech Gaming Controller</h2>
+    <div class="display-flex price-list">
+      <span>$45</span>
+      <span>$90</span>
+      <span>50% OFF</span>
+      <span>Inclusive All Taxes</span>
+    </div>
+    <div class="product-detail">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam,<span id="dots" class="dots">...</span>
+        <span class="more">
+          quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+                                                                                                                                                                                                                                                                                                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.quis
+                                                                                                                                                                                                                                                                                                  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+      </p>
+      <a
+        onclick="redtoggle()"
+        id="btnread"
+        class="viewmore">Read More</a>
+    </div>
+    <div>
+      <h5>Color</h5>
+      <ul class="display-flex color-swatches">
+        <li>
+          <span style="background-color: red;"></span>
+        </li>
+        <li>
+          <span style="background-color: green;"></span>
+        </li>
+        <li>
+          <span style="background-color: blue;"></span>
+        </li>
+      </ul>
+    </div>
+    <h5>Quantity</h5>
+    <div class="display-flex product-purchase-control">
+      <div>
+        <button onclick="decreaseValue(this);">-</button><input type="number"><button onclick="increaseValue(this);">+</button>
+      </div>
+      <div>
+        <button>ADD TO CART</button>
+      </div>
+      <div>
+        <button>Buy It Now</button>
+      </div>
+    </div>
+    <div class="offers">
+      <h5>Offer</h5>
+      <ul class="offer-list">
+        <li>
+          Buy one Get One Free
+        </li>
+        <li>
+          Flat 10 % off on HDFC Credit Card</li>
+        <li>
+          Abouve 100$ purchase Free Console
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div>
+  <h2>Freequently Bought Togeather</h2>
+  <div class="display-flex all-buy">
+    <div class="all-buy__cards">
+      <div>
+        <img src="../images/gaming controls/08-Gaming.jpg">
+      </div>
+      <div>
+        <p>
+          <a href="#">Dell KB216/KB216d1 Wired Multimedia USB Keyboard with Super Quite Plunger
+            Keys</a>
+          <br><span>$45</span>
+        </p>
+        <input type="checkbox" checked />
+      </div>
+    </div>
+    <div>
+      <i class="fa-thin fa-plus" style="color: #000000;"></i>
+    </div>
+    <div class="all-buy__cards">
+      <div>
+        <img src="../images/gaming controls/08-Gaming.jpg">
+      </div>
+      <div>
+        <p>
+          <a href="#">Dell KB216/KB216d1 Wired Multimedia USB Keyboard with Super Quite Plunger
+            Keys</a>
+        </p>
+        <span>$45</span>
+        <input type="checkbox" checked />
+      </div>
+
+    </div>
+    <div>
+      <i class="fa-thin fa-equals" style="color: #000000;"></i>
+    </div>
+    <div>
+      <div>
+        <span class="smallfont">Total Price
+        </span>
+        <span class="largefont">
+          $</span>
+        <span class="extralargefont">90</span>
+      </div>
+      <button>Add both to cart</button>
+    </div>
+  </div>
+</div>
+<div class="display-flex recommanded-items">
+  <div class="product-info">
+    <h3>Product Information</h3>
+    <table class="product-info">
+      <tr>
+        <th>Brand</th>
+        <td>Dell Basic</td>
+      </tr>
+      <tr>
+        <th>
+          Colour
+        </th>
+        <td>
+          Black
+        </td>
+      </tr>
+      <tr>
+        <th>Product Dimensions</th>
+        <td>5.7 x 15.9 x 5.1 cm; 681 Grams</td>
+      </tr>
+      <tr>
+        <th>Included Componenet</th>
+        <td>
+          Cabel
+        </td>
+      </tr>
+      <tr>
+        <th>Item Weight</th>
+        <td>681g</td>
+      </tr>
+      <tr>
+        <th>Manufacturer</th>
+        <td>Shenzhen Iragile Electronics Co., Ltd</td>
+      </tr>
+      <tr>
+        <th>
+          Origin Country
+        </th>
+        <td>
+          Hong Kong
+        </td>
+      </tr>
+
+      <tr>
+        <th>Packer</th>
+        <td>
+          IRIS TECH,G-1/G-2, Dharam complex, Phase-1, Opp.Sapna Bar, Anjur Mankoli Road,
+          Bhiwandi-421302. Email: iristechh@gmail.com
+        </td>
+      </tr>
+      <tr>
+        <th>ASIN</th>
+        <td>B09SMY8PWL</td>
+      </tr>
+    </table>
+  </div>
+  <div>
+    <h3>Tech Gaming Control</h3>
+    <div>
+      <img src="../images/gaming controls/08-Gaming.jpg">
+    </div>
+    <div class="display-flex product-purchase-control">
+      <div>
+        <button onclick="decreaseValue(this);">-</button><input type="number"><button onclick="increaseValue(this);">+</button>
+      </div>
+      <div>
+        <button>ADD TO CART</button>
+      </div>
+      <div>
+        <button>Buy It Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pr">
+  <h3>
+    You might also like
+  </h3>
+  <a class="prev" onclick="scroolview_event(-3,this.parentElement);">❮</a>
+  <a class="next" onclick="scroolview_event(3,this.parentElement);">❯</a>
+  <div class="scroller">
+    <div>
+      <div class="product-card">
+        <div class="product-card__image-container">
+          <img src="../images/headphone/white.png">
+        </div>
+        <ul class="display-flex product-card__image-swatches">
+          <li>
+            <a data-color="white.png" onmouseover="productcard_setimage(this);">
+              <span class="bgwhite"></span>
+            </a>
+          </li>
+          <li>
+            <a data-color="maroon.png" onmouseover="productcard_setimage(this);">
+              <span class="bgmaroom"></span>
+            </a>
+          </li>
+          <li>
+            <a data-color="black.png" onmouseover="productcard_setimage(this);">
+              <span class="bgblack"></span>
+            </a>
+          </li>
+        </ul>
+        <div class="product-card__container">
+          <span>Wireless Headphones WH-1000XM4</span>
+          <div class="product-card__price">
+            <span>$199</span>
+            <span class="strike-text">$299</span>
+            <span>(50% OFF)</span>
+          </div>
+          <small>Free Delievery</small>
+          <span class="product-card__deal">Save Extra With Combo Offer</span>
+        </div>
+
+      </div>
+    </div>
+    <div>
+      <div class="product-card">
+        <div class="product-card__image-container">
+          <img src="../images/headphone/white.png">
+        </div>
+        <ul class="display-flex product-card__image-swatches">
+          <li>
+            <a data-color="white.png" onmouseover="productcard_setimage(this);">
+              <span class="bgwhite"></span>
+            </a>
+          </li>
+          <li>
+            <a data-color="maroon.png" onmouseover="productcard_setimage(this);">
+              <span class="bgmaroom"></span>
+            </a>
+          </li>
+          <li>
+            <a data-color="black.png" onmouseover="productcard_setimage(this);">
+              <span class="bgblack"></span>
+            </a>
+          </li>
+        </ul>
+        <div class="product-card__container">
+          <span>Wireless Headphones WH-1000XM4</span>
+          <div class="product-card__price">
+            <span>$199</span>
+            <span class="strike-text">$299</span>
+            <span>(50% OFF)</span>
+          </div>
+          <small>Free Delievery</small>
+          <span class="product-card__deal">Save Extra With Combo Offer</span>
+        </div>
+
+      </div>
+    </div>
+    <div>
+      <div class="product-card">
+        <div class="product-card__image-container">
+          <img src="../images/headphone/white.png">
+        </div>
+        <ul class="display-flex product-card__image-swatches">
+          <li>
+            <a data-color="white.png" onmouseover="productcard_setimage(this);">
+              <span class="bgwhite"></span>
+            </a>
+          </li>
+          <li>
+            <a data-color="maroon.png" onmouseover="productcard_setimage(this);">
+              <span class="bgmaroom"></span>
+            </a>
+          </li>
+          <li>
+            <a data-color="black.png" onmouseover="productcard_setimage(this);">
+              <span class="bgblack"></span>
+            </a>
+          </li>
+        </ul>
+        <div class="product-card__container">
+          <span>Wireless Headphones WH-1000XM4</span>
+          <div class="product-card__price">
+            <span>$199</span>
+            <span class="strike-text">$299</span>
+            <span>(50% OFF)</span>
+          </div>
+          <small>Free Delievery</small>
+          <span class="product-card__deal">Save Extra With Combo Offer</span>
+        </div>
+
+      </div>
+    </div>
+    <div>
+      <div class="product-card">
+        <div class="product-card__image-container">
+          <img src="../images/headphone/white.png">
+        </div>
+        <ul class="display-flex product-card__image-swatches">
+          <li>
+            <a data-color="white.png" onmouseover="productcard_setimage(this);">
+              <span class="bgwhite"></span>
+            </a>
+          </li>
+          <li>
+            <a data-color="maroon.png" onmouseover="productcard_setimage(this);">
+              <span class="bgmaroom"></span>
+            </a>
+          </li>
+          <li>
+            <a data-color="black.png" onmouseover="productcard_setimage(this);">
+              <span class="bgblack"></span>
+            </a>
+          </li>
+        </ul>
+        <div class="product-card__container">
+          <span>Wireless Headphones WH-1000XM4</span>
+          <div class="product-card__price">
+            <span>$199</span>
+            <span class="strike-text">$299</span>
+            <span>(50% OFF)</span>
+          </div>
+          <small>Free Delievery</small>
+          <span class="product-card__deal">Save Extra With Combo Offer</span>
+        </div>
+
+      </div>
+    </div>
+    <div>
+      <div class="product-card">
+        <div class="product-card__image-container">
+          <img src="../images/headphone/white.png">
+        </div>
+        <ul class="display-flex product-card__image-swatches">
+          <li>
+            <a data-color="white.png" onmouseover="productcard_setimage(this);">
+              <span class="bgwhite"></span>
+            </a>
+          </li>
+          <li>
+            <a data-color="maroon.png" onmouseover="productcard_setimage(this);">
+              <span class="bgmaroom"></span>
+            </a>
+          </li>
+          <li>
+            <a data-color="black.png" onmouseover="productcard_setimage(this);">
+              <span class="bgblack"></span>
+            </a>
+          </li>
+        </ul>
+        <div class="product-card__container">
+          <span>Wireless Headphones WH-1000XM4</span>
+          <div class="product-card__price">
+            <span>$199</span>
+            <span class="strike-text">$299</span>
+            <span>(50% OFF)</span>
+          </div>
+          <small>Free Delievery</small>
+          <span class="product-card__deal">Save Extra With Combo Offer</span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function setimage(control) {
+    document.querySelector(".product-image--lens img").src = control.querySelector("img").src;
+  }
+
+  var lens,
+    img_container,
+    recent_image,
+    leftpos,
+    toppos,
+    zoom_img,
+    cx,
+    cy;
+  lens = document.querySelector(".lens");
+  img_container = document.querySelector(".product-image--lens");
+  recent_image = img_container.querySelector(".product-image--lens img");
+  zoom_img = document.querySelector(".product-image--zoom");
+
+  img_container.onpointermove = function(event) {
+    moveAt(event.clientX, event.clientY);
+  }
+  function moveAt(obj_clientx, obj_clienty) {
+    var x,
+      y;
+    leftpos = obj_clientx - img_container.getBoundingClientRect().left -(lens.offsetWidth / 2)
+    toppos = obj_clienty - img_container.getBoundingClientRect().top -(lens.offsetHeight / 2);
+    x = (leftpos < 0)
+      ? 0
+      : (leftpos > (img_container.clientWidth - lens.offsetWidth))
+        ? img_container.clientWidth - lens.clientWidth
+        : leftpos;
+    y = (toppos < 0)
+      ? 0
+      : (toppos > (img_container.clientHeight - lens.offsetHeight))
+        ? img_container.clientHeight - lens.clientHeight
+        : toppos;
+    lens.style.left = x + "px";
+    lens.style.top = y + "px";
+
+// set the zoom image as background ever mouse move
+    if (window.innerWidth <= 800) {
+      lens.style.backgroundPosition = "-" + (
+        x * 1.25
+      ) + "px -" + (
+        y * 1.25
+      ) + "px";
+    } else {
+      zoom_img.style.backgroundPosition = "-" + (
+        x * cx
+      ) + "px -" + (
+        y * cy
+      ) + "px";
+    }
+  }
+
+// logic of zoom image
+
+  function toogle(element) {
+    document.querySelector(".lens").classList.toggle("d-non");
+    (window.innerWidth <= 800)
+      ? zoom_img.classList.add("d-non")
+      : zoom_img.classList.toggle("d-non");
+    if (event.type == 'pointerenter') {
+      if (window.innerWidth <= 800) {
+        lens.style.backgroundImage = "url('" + recent_image.src + "')";
+        lens.style.backgroundSize = (recent_image.width * 1.25) + "px " + (
+          recent_image.height * 1.25
+        ) + "px";
+        if (! zoom_img.classList.contains("d-non")) {
+          zoom_img.classList.add("d-non");
+        }
+      } else {
+        lens.style = "";
+        if (zoom_img.classList.contains("d-non")) {
+          zoom_img.classList.remove("d-non");
+        }
+        zoom_img.style.backgroundImage = "url('" + recent_image.src + "')";
+
+// zoom image width = cx * lens width . zoom image  cx time bigger than lens
+        cx = zoom_img.offsetWidth / lens.offsetWidth;
+        cy = zoom_img.offsetHeight / lens.offsetHeight;
+        zoom_img.style.backgroundSize = (recent_image.width * cx) + "px " + (
+          recent_image.height * cy
+        ) + "px";
+      }
+    }
+  }
+
+  function redtoggle() {
+    var dots = document.getElementById("dots");
+    var moreText = document.querySelector(".more");
+    var btnText = document.getElementById("btnread");
+
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
+  function increaseValue(control) {
+    var value = parseInt(control.previousElementSibling.value, 10);
+    value = isNaN(value)
+      ? 0
+      : value;
+    value++;
+    control.previousElementSibling.value = value;
+  }
+
+  function decreaseValue(control) {
+    var value = parseInt(control.nextElementSibling.value, 10);
+    value = isNaN(value)
+      ? 0
+      : value;
+    value < 1
+      ? value = 1
+      : '';
+    value--;
+    control.nextElementSibling.value = value;
+  }
+
+  var recent_card_no = 0;
+
+  function scroolview_event(inc, elem) {
+    var scroller = elem.querySelectorAll('div.scroller')[0];
+    if (window.innerWidth <= 1000) {
+      inc > 0
+        ? inc = 1
+        : inc = -1;
+    }
+    var scroller_childern = scroller.children;
+    recent_card_no = recent_card_no + inc;
+    if (recent_card_no > scroller_childern.length - 1) {
+      recent_card_no = 0;
+    }
+    var card = scroller_childern[recent_card_no];
+    if (card != undefined) 
+      scroller.scrollLeft = card.offsetLeft;
+     else {
+      scroller.scrollLeft = scroller_childern[scroller_childern.length - 1].offsetLeft;
+      recent_card_no = (Math.abs(inc) * Math.ceil(scroller_childern.length / Math.abs(inc))) - Math.abs(inc);
+    } scroller.dataset.recentcard = recent_card_no;
+  }
+  function productcard_setimage(atag) {
+    var imgcontrol = atag
+      .parentElement
+      .parentElement
+      .previousElementSibling
+      .querySelector('img');
+    imgcontrol.src = "../images/headphone/" + atag.dataset.color;
+  }
+  window.onresize = function() {
+    var scroller = document.querySelectorAll('.scroller');
+    for (var scroll_div of scroller) {
+      var scroller_childern = scroll_div.children;
+      var card = scroller_childern[recent_card_no];
+      scroll_div.scrollTo({top: 0, left: card.offsetLeft, behavior: 'instant'});
+
+    }
+  }
+</script>

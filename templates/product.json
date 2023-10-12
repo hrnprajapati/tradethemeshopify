@@ -1,0 +1,15 @@
+{
+    "sections": {
+      "main": {
+        "type": "product-detail",
+        "custom_css": [
+
+        ],
+        "settings": {
+        }
+      }
+    },
+    "order": [
+      "main"
+    ]
+  }

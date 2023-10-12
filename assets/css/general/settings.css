@@ -1,0 +1,9 @@
+@import url(elements.css);
+@import url(common.css);
+@import url(../controls/masterpage.css);
+@import url(../fontawesome/all.css);
+:root{
+    --black-color:#2a2a2a;
+    --white-color:#ffffff;
+    --body-background:#F7F7F7 ;
+}

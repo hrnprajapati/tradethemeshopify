@@ -1,0 +1,64 @@
+.margin-zero{
+    margin: 0;
+}
+.padding-zero{
+    padding: 0;
+}
+.padding-general{
+    padding: 05px;
+}
+.margin-general{
+    margin:05px;
+}
+.display-flex{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 05px;
+}
+.center{
+    text-align: center;
+}
+.strike-text{
+    text-decoration: line-through;
+}
+.bgred{
+    background-color: red;
+}
+.bgblack{
+    background-color: black;
+}
+.bgmaroom{
+    background-color: maroon;
+}
+.bgwhite{
+    background-color: whitesmoke;
+}
+.d-non{
+    display: none;
+}
+.d-block{
+    display: block;
+}
+.boldfont{
+    font-weight: bold; 
+}
+.smallfont{
+    font-size: 12px;
+}
+.largefont{
+    font-size: 19px      ;
+}
+.extralargefont{
+    font-size: 30px;
+}
+.text-green{
+    color: green;
+}
+.pr{
+    position: relative;
+}
+.btnsecondlook{
+    background-color: white;
+    border: 1px solid rgb(56,54,54);
+    color: black;
+}

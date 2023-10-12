@@ -1,0 +1,60 @@
+body{
+    background-color: var(--body-background);
+    margin:0;padding: 0;
+    font-family: "DM Sans", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    background-color: white;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+footer{
+    margin-top: auto;
+}
+body>*:not(div.offer-msg){
+    margin-inline: 2rem;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-block: 07px;
+}
+li{
+    list-style-position: inside;
+}
+
+a{
+    text-decoration: none;
+    color: var(--black-color);
+}
+input:not([type="radio"]){
+    padding: 10px;
+}
+button{
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding:10px;
+    border: none;
+    box-sizing: border-box;
+ }
+ button:hover{
+    cursor: pointer;
+    
+ }
+h1,h2,h3,h4,h5,p{
+    margin-block: 0;
+    padding-block: 2px;
+}
+p{
+    line-height: 25px;
+    margin-block: 5px;
+
+}
+div{
+    margin-block: 05px;
+}
